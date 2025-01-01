@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<export>
+    <results>
+        <annotation url="https://int.rossum.app/api/v1/annotations/5897670">
+            <status>exported</status>
+            <arrived_at>2024-12-26T22:32:13.396887Z</arrived_at>
+            <exported_at>2024-12-28T21:06:32.232076Z</exported_at>
+            <document url="https://int.rossum.app/api/v1/documents/7860660">
+                <file_name>[SAMPLE]_tax_invoice_eu_2.pdf</file_name>
+                <file>https://int.rossum.app/api/v1/documents/7860660/content</file>
+            </document>
+            <modifier url="https://int.rossum.app/api/v1/users/308224">
+                <username>uiz37027@msssg.com</username>
+            </modifier>
+            <schema url="https://int.rossum.app/api/v1/schemas/1457243"></schema>
+            <metadata></metadata>
+            <content>
+                <section schema_id="basic_info_section">
+                    <datapoint rir_confidence="0.9496853614441855" schema_id="document_id" type="string">43543687</datapoint>
+                    <datapoint rir_confidence="0.7846516673986057" schema_id="order_id" type="string">PO5475375</datapoint>
+                    <datapoint rir_confidence="0.9603711242397049" schema_id="date_issue" type="date">2022-01-04</datapoint>
+                    <datapoint rir_confidence="0.9798088897007345" schema_id="date_due" type="date">2022-02-28</datapoint>
+                    <datapoint rir_confidence="0.9590307094780428" schema_id="document_type" type="enum">tax_invoice</datapoint>
+                    <datapoint rir_confidence="0.926521665082403" schema_id="language" type="enum">eng</datapoint>
+                </section>
+                <section schema_id="payment_info_section">
+                    <datapoint rir_confidence="0.9326882892824414" schema_id="account_num" type="string">45-567894324</datapoint>
+                    <datapoint rir_confidence="0.9652214229218675" schema_id="iban" type="string">CZ22 3405 6455 6789 4324</datapoint>
+                    <datapoint rir_confidence="0.9629701533461924" schema_id="bic" type="string">CZMOUTYDD</datapoint>
+                    <datapoint rir_confidence="0.9891846150342352" schema_id="var_sym" type="string"></datapoint>
+                    <datapoint rir_confidence="0.9989065471440312" schema_id="spec_sym" type="string"></datapoint>
+                </section>
+                <section schema_id="amounts_section">
+                    <datapoint rir_confidence="0.9527411452095406" schema_id="amount_total" type="number">1045383.35</datapoint>
+                    <datapoint rir_confidence="0.9464286106569502" schema_id="amount_total_base" type="number">909029.00</datapoint>
+                    <datapoint rir_confidence="0.9673492378054405" schema_id="amount_total_tax" type="number">136354.35</datapoint>
+                    <datapoint rir_confidence="0.9417686559544287" schema_id="currency" type="enum">czk</datapoint>
+                    <multivalue schema_id="tax_details">
+                        <tuple schema_id="tax_detail"></tuple>
+                    </multivalue>
+                </section>
+                <section schema_id="vendor_section">
+                    <datapoint rir_confidence="0.7142075324267156" schema_id="sender_name" type="string">Kurtky&amp;Kurtki</datapoint>
+                    <datapoint rir_confidence="0.744415558472001" schema_id="sender_address" type="string">Pivovarská 34
+Kozmice
+Česká republika</datapoint>
+                    <datapoint rir_confidence="0.9733163383657083" schema_id="sender_ic" type="string">67890324</datapoint>
+                    <datapoint rir_confidence="0.7985896112015815" schema_id="sender_vat_id" type="string">CZ67890324</datapoint>
+                    <datapoint rir_confidence="0.4532590779654992" schema_id="recipient_name" type="string"></datapoint>
+                    <datapoint rir_confidence="0.21910833362157844" schema_id="recipient_address" type="string">Moscow 119333
+Russia</datapoint>
+                    <datapoint rir_confidence="0.9902948072002337" schema_id="recipient_ic" type="string"></datapoint>
+                    <datapoint rir_confidence="0.9755419042085671" schema_id="recipient_vat_id" type="string">582902578</datapoint>
+                    <datapoint rir_confidence="0.33334972844263316" schema_id="recipient_delivery_name" type="string">Kurtky&amp;Kurtki</datapoint>
+                    <datapoint rir_confidence="0.6081403202335209" schema_id="recipient_delivery_address" type="string">65/8 Ulitsa Gavrilova
+Moscow 119567
+Russia</datapoint>
+                </section>
+                <section schema_id="line_items_section">
+                    <multivalue schema_id="line_items">
+                        <tuple schema_id="line_item">
+                            <datapoint schema_id="item_code" type="string"></datapoint>
+                            <datapoint rir_confidence="0.8465405744632865" schema_id="item_description" type="string">Rohlík 30 g</datapoint>
+                            <datapoint rir_confidence="0.9868831928252085" schema_id="item_quantity" type="number">5000</datapoint>
+                            <datapoint schema_id="item_uom" type="string"></datapoint>
+                            <datapoint schema_id="item_amount_base" type="number"></datapoint>
+                            <datapoint rir_confidence="0.8368730172241028" schema_id="item_amount" type="number">2.90</datapoint>
+                            <datapoint rir_confidence="0.8528755223284411" schema_id="item_amount_total" type="number">14500.00</datapoint>
+                        </tuple>
+                        <tuple schema_id="line_item">
+                            <datapoint schema_id="item_code" type="string"></datapoint>
+                            <datapoint rir_confidence="0.8426456004953395" schema_id="item_description" type="string">Chléb kváskový 450 g</datapoint>
+                            <datapoint rir_confidence="0.9988597439059773" schema_id="item_quantity" type="number">3050</datapoint>
+                            <datapoint schema_id="item_uom" type="string"></datapoint>
+                            <datapoint schema_id="item_amount_base" type="number"></datapoint>
+                            <datapoint rir_confidence="0.8138068250809538" schema_id="item_amount" type="number">43.90</datapoint>
+                            <datapoint rir_confidence="0.8687312615838083" schema_id="item_amount_total" type="number">133895.00</datapoint>
+                        </tuple>
+                        <tuple schema_id="line_item">
+                            <datapoint schema_id="item_code" type="string"></datapoint>
+                            <datapoint rir_confidence="0.8118968350697223" schema_id="item_description" type="string">Houska celozrná 30 g</datapoint>
+                            <datapoint rir_confidence="0.9988597436565172" schema_id="item_quantity" type="number">4500</datapoint>
+                            <datapoint schema_id="item_uom" type="string"></datapoint>
+                            <datapoint schema_id="item_amount_base" type="number"></datapoint>
+                            <datapoint rir_confidence="0.833268551406" schema_id="item_amount" type="number">5.90</datapoint>
+                            <datapoint rir_confidence="0.8698342493849793" schema_id="item_amount_total" type="number">26550.00</datapoint>
+                        </tuple>
+                        <tuple schema_id="line_item">
+                            <datapoint schema_id="item_code" type="string"></datapoint>
+                            <datapoint rir_confidence="0.765656809493905" schema_id="item_description" type="string">Makový šáteček 120 g</datapoint>
+                            <datapoint rir_confidence="0.9988597436434368" schema_id="item_quantity" type="number">8500</datapoint>
+                            <datapoint schema_id="item_uom" type="string"></datapoint>
+                            <datapoint schema_id="item_amount_base" type="number"></datapoint>
+                            <datapoint rir_confidence="0.8270406235996732" schema_id="item_amount" type="number">18.90</datapoint>
+                            <datapoint rir_confidence="0.8687312630163943" schema_id="item_amount_total" type="number">160650.00</datapoint>
+                        </tuple>
+                        <tuple schema_id="line_item">
+                            <datapoint schema_id="item_code" type="string"></datapoint>
+                            <datapoint rir_confidence="0.8517367942261963" schema_id="item_description" type="string">Vánočka 750 g</datapoint>
+                            <datapoint rir_confidence="0.998859744282748" schema_id="item_quantity" type="number">200</datapoint>
+                            <datapoint schema_id="item_uom" type="string"></datapoint>
+                            <datapoint schema_id="item_amount_base" type="number"></datapoint>
+                            <datapoint rir_confidence="0.7880035090522827" schema_id="item_amount" type="number">125.67</datapoint>
+                            <datapoint rir_confidence="0.8687312606089039" schema_id="item_amount_total" type="number">25134.00</datapoint>
+                        </tuple>
+                        <tuple schema_id="line_item">
+                            <datapoint schema_id="item_code" type="string"></datapoint>
+                            <datapoint rir_confidence="0.7658184484646424" schema_id="item_description" type="string">Tvarohová buchta, plech 750 g</datapoint>
+                            <datapoint rir_confidence="0.998859743892928" schema_id="item_quantity" type="number">500</datapoint>
+                            <datapoint schema_id="item_uom" type="string"></datapoint>
+                            <datapoint schema_id="item_amount_base" type="number"></datapoint>
+                            <datapoint rir_confidence="0.7956795515932926" schema_id="item_amount" type="number">178.60</datapoint>
+                            <datapoint rir_confidence="0.8632195032243293" schema_id="item_amount_total" type="number">89300.00</datapoint>
+                        </tuple>
+                        <tuple schema_id="line_item">
+                            <datapoint schema_id="item_code" type="string"></datapoint>
+                            <datapoint rir_confidence="0.8065869017804892" schema_id="item_description" type="string">Pražský koláč 230 g</datapoint>
+                            <datapoint rir_confidence="0.9988597435176246" schema_id="item_quantity" type="number">10000</datapoint>
+                            <datapoint schema_id="item_uom" type="string"></datapoint>
+                            <datapoint schema_id="item_amount_base" type="number"></datapoint>
+                            <datapoint rir_confidence="0.8332685520740243" schema_id="item_amount" type="number">45.90</datapoint>
+                            <datapoint rir_confidence="0.8862522525049782" schema_id="item_amount_total" type="number">459000.00</datapoint>
+                        </tuple>
+                    </multivalue>
+                </section>
+                <section schema_id="other_section">
+                    <datapoint schema_id="notes" type="string"></datapoint>
+                </section>
+            </content>
+            <automated>false</automated>
+            <modified_at>2024-12-28T21:05:56.832752Z</modified_at>
+            <assigned_at>2024-12-28T21:05:54.875322Z</assigned_at>
+        </annotation>
+    </results>
+    <pagination>
+        <next></next>
+        <previous></previous>
+        <total>1</total>
+        <total_pages>1</total_pages>
+    </pagination>
+</export>

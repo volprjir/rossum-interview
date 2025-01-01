@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InvoiceRegisters>
+    <Invoices>
+        <Payable>
+            <Amount>909029.0</Amount>
+            <Currency>CZK</Currency>
+            <Details>
+                <AccountId></AccountId>
+                <Amount>14500.0</Amount>
+                <Notes>Rohlík 30 g</Notes>
+                <Quantity>5000</Quantity>
+            </Details>
+            <Details>
+                <AccountId></AccountId>
+                <Amount>133895.0</Amount>
+                <Notes>Chléb kváskový 450 g</Notes>
+                <Quantity>3050</Quantity>
+            </Details>
+            <Details>
+                <AccountId></AccountId>
+                <Amount>26550.0</Amount>
+                <Notes>Houska celozrná 30 g</Notes>
+                <Quantity>4500</Quantity>
+            </Details>
+            <Details>
+                <AccountId></AccountId>
+                <Amount>160650.0</Amount>
+                <Notes>Makový šáteček 120 g</Notes>
+                <Quantity>8500</Quantity>
+            </Details>
+            <Details>
+                <AccountId></AccountId>
+                <Amount>25134.0</Amount>
+                <Notes>Vánočka 750 g</Notes>
+                <Quantity>200</Quantity>
+            </Details>
+            <Details>
+                <AccountId></AccountId>
+                <Amount>89300.0</Amount>
+                <Notes>Tvarohová buchta, plech 750 g</Notes>
+                <Quantity>500</Quantity>
+            </Details>
+            <Details>
+                <AccountId></AccountId>
+                <Amount>459000.0</Amount>
+                <Notes>Pražský koláč 230 g</Notes>
+                <Quantity>10000</Quantity>
+            </Details>
+            <DueDate>2022-02-28</DueDate>
+            <Iban>CZ22 3405 6455 6789 4324</Iban>
+            <InvoiceDate>2022-01-04</InvoiceDate>
+            <InvoiceNumber>43543687</InvoiceNumber>
+            <Notes></Notes>
+            <TotalAmount>1045383.35</TotalAmount>
+            <Vendor>Kurtky&amp;Kurtki</Vendor>
+            <VendorAddress>Pivovarská 34 Kozmice Česká republika</VendorAddress>
+        </Payable>
+    </Invoices>
+</InvoiceRegisters>
